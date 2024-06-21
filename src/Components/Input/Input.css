@@ -1,0 +1,35 @@
+.Input{
+    margin: 24px 0;
+}
+
+.Input label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Input input{
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 7px;
+    font-size: 24px;
+    padding: 24px;
+}
+
+@media (max-width: 768px) {
+    .Input input{
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+.Input-color input{
+    padding: 5px 24px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}

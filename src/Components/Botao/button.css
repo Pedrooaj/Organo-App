@@ -1,0 +1,22 @@
+.Button{
+    background-color: #6278F7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0;
+}
+
+.Button:hover{
+    background-color: #4F63E0;
+    color:#95FFD4;
+}
+
+@media (max-width: 768px){
+    .Button{
+        padding: 15px;
+    }
+}
