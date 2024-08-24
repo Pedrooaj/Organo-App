@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import { Time } from './Components/Time';
 import { Rodape } from './Components/Rodape';
 import { GoOrganization } from "react-icons/go";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 
 function App() {
@@ -77,9 +78,11 @@ function App() {
     }catch{
       console.log('Erro ao favoritar colaborador!')
     }
-    
-
   }
+
+  useEffect(() => {
+    toast.warning("Aguarde um momento ate a API sair do modo suspensão!", {autoClose: 7000, position: "bottom-left"})
+  }, [])
 
   return (
     <div className="App">
@@ -96,6 +99,7 @@ function App() {
         colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} 
         aoDeletar={deleteColab} />)}
         <Rodape />
+        <ToastContainer />
     </div>
   );
 }
