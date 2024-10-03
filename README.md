@@ -64,7 +64,7 @@ Inicie o servidor
 
 **Front-end:** React e seus respectivos hooks.
 
-**Back-end:** Json-Server e JSON.
+**Back-end:** NodeJS e Json-Server.
 
 
 ## Autores
