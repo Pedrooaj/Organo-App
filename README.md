@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Organo App
+O Organo e uma aplicação web que tem como foco organizar times de empresas de forma simples e minimalista com um otimio nivel de costumização caso você deseje. Alem disto este projeto foi feito com base no meu Aprendizado do curso Oracle Next Education em parceria com Alura.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Aprendizados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Neste projeto você ira ver, como realizar a criação de componentes, como capturar informações de um input e passar ela para useState, consumo de API's no React com Axios e o hook useEffect, como usar bibliotecas como react-toastify para seu front-end e támbem como fazer prop-drilling corretamente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Neste projeto foram utilizadas as seguintes Tecnologias:
 
-### `npm run build`
+- **ReactJS** e uma biblioteca muito utilizada para desenvolvimento Web onde você consegue fazer componentes e reaproveitar eles em toda aplicação.
+- **Axios** e uma biblioteca utilizada para consumir API's de forma mais facil.
+- **useState** e utilizado para criar e gerenciar o estado de uma variavel no React.
+- **useEffect** e utilizado para consumir a Api criada pelo Json-server, o useEffect e um hook dinamico que renderiza ou consome uma API com base na alteração estado de uma variavel.
+- **Prop Drilling** e utilizada para um componente filho herdar um estado ou um atributo de um componente pai.
+- **React toastify** utilizada para alertar alterações em formato de pop'up para o cliente de forma amigavel.
+- **uuid** cria uuid para pessoas para serem identificadas na aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Variáveis de Ambiente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`REACT_APP_API_URL`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Rodando localmente
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone o projeto
 
-### Code Splitting
+```bash
+  git clone git@github.com:Pedrooaj/Organo-App.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Entre no diretório do projeto
 
-### Analyzing the Bundle Size
+```bash
+  cd Organo-App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instale as dependências
 
-### Making a Progressive Web App
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Inicie o servidor
 
-### Advanced Configuration
+```bash
+  npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Stack utilizada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Front-end:** React e seus respectivos hooks.
 
-### `npm run build` fails to minify
+**Back-end:** Json-Server e JSON.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Autores
+
+- [@pedrooaj](https://www.github.com/pedrooaj)
+
