@@ -18,7 +18,7 @@ Neste projeto foram utilizadas as seguintes Tecnologias:
 - **useState** e utilizado para criar e gerenciar o estado de uma variavel no React.
 - **useEffect** e utilizado para consumir a Api criada pelo Json-server, o useEffect e um hook dinamico que renderiza ou consome uma API com base na alteração estado de uma variavel.
 - **Prop Drilling** e utilizada para um componente filho herdar um estado ou um atributo de um componente pai.
-- **React toastify** utilizada para alertar alterações em formato de pop'up para o cliente de forma amigavel.
+- **React toastify** utilizada para alertar alterações em formato de pop'up para o cliente de forma amigavel. No caso do projeto ele serviu para notificar a conexão da api com o cliente!
 - **uuid** cria uuid para pessoas para serem identificadas na aplicação.
 
 
